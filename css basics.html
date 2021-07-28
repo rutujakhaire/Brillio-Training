@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="makeup.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        p#margins{
+           border-style:double;
+           border-color: crimson;
+           border-spacing: 800px;
+        }
+    #margins
+    {
+        
+        padding: 60px;
+        margin: 50px;
+    }
+    #header{
+        background-color: lightcyan;
+        color: darkred;
+        text-align: center;
+    }
+    #navigationbar{
+        background-color: burlywood;
+        color: white;
+        float: left;
+        text-align: center;
+        text-decoration: underline;
+        padding: 15px;
+        width: 100%;
+    }
+    /*div{
+        background-color: cadetblue;
+        border: 20px solid maroon;
+        width:200px;
+        padding: 60px;
+        margin: 50px;
+        text-decoration: underline;
+        text-shadow: black;
+        text-transform: capitalize;
+    }*/
+    #text
+    {
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    a:link{
+        color: coral;
+    }
+    a:visited{
+        color: darkgreen;
+    }
+    a:hover{
+        color: magenta;
+    }
+    ul.List1
+    {
+        list-style-type: symbols();
+    }
+    #students
+    {
+     font-family: 'Times New Roman', Times, serif;
+     font-style: italic;  
+     border-collapse: collapse;
+     width: fit-content;
+    }
+    th,tr
+    {
+        border:black solid 1px;
+        padding: auto;
+        text-align: center;
+    }
+    #students.th
+    {
+        background-color: crimson;
+        color: wheat;
+    }
+    td:hover
+    {
+        background-color: plum;
+    }
+    th{
+        background-color:red
+    }
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h4>Welcome to orkut!</h4>
+    </div>
+    <div id="navigationbar">
+        <a href="a">Home</a>
+        <a href="a">About us</a>
+        <a href="a">contact us</a>
+    </div>
+    <table id="students">
+        <tr>
+            <th>Name</th>
+            <th>Branch</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>Anamika</td>
+            <td>CSE</td>
+            <td>Apple</td>
+        </tr>
+        <tr>
+            <td>Rutuja</td>
+            <td>ENTC</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>Shamu</td>
+            <td>ENTC</td>
+            <td>IBM</td>
+        </tr>
+    </table>
+    <h1>I am Element Selector</h1>
+    <p class="css">CSS selectors are used to select the content o style.</p>
+<br><p id="margins"> CSS also has different properties for specifyinh the margins.<br> This section will be about margins.</p>
+    <div>The universal selector provided by CSS helps in choosing any elements within the HTML page. It goes with a single element and uses the asterisk (i.e., "*") symbol used for denoting the selector as a universal selector. It is usually written as an asterisk followed by a selector. The * is used for selecting all elements. This asterisk also has the capability to select all elements that are inside another element.</div>
+<br><p id="text"> This is a random text for formatting and playing with text.</p>
+
+<h2> Link Areas</h2>
+<a href="https://www.amazon.in">Click me!!</a>
+<h3>List:</h3>
+<ul class="List1">
+    <li>Monday</li>
+    <li>Tuesday</li>
+    <li>Wednesday</li>
+    <li>Thursday</li>
+    <li>Friday</li>
+</ul>
+
+</body>
+</html>
