@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        fieldset{
+            background-color: cadetblue;
+            width: fit-content;
+            margin: auto;
+            border: double;
+         }
+         fieldset:hover{
+             background-color:lightcoral
+         }
+         input
+         {
+             box-sizing:border-box;
+             padding: 5px;
+         }
+         input:hover
+         {
+             background-color: lightcyan;
+         }
+    </style>
+</head>
+<body>
+    <h2><center>Register below! </center></h2>
+    <form>
+        <fieldset>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Enter first name here.."><br><br><br>
+
+        <label for="lname"></label>First Name:</label>
+        <input type="text" id="lname" placeholder="Enter last name"><br> <br><br>
+
+        <label for="mail"> Enter email:</label>
+        <input type="email" id="mail" placeholder="Enter email"><br><br>
+
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password"><br><br><br>
+
+        <label for="password1">Re-enter password!</label>
+        <input type="password" id="password1" placeholder="Re-enter password"><br> <br>
+
+
+      <br>  <label for="gender">Select your Gender</label><br>
+        <input type="radio" id="Male" name="Gender">Male<br>
+        <input type="radio" id="Female" name="Gender">Female<br>
+        <input type="radio" id="Other" name="Gender">Other<br><br>
+
+            <label for="tel">Enter your number</label>
+            <input type="tel" id="tel" placeholder="Enter number"name="tel"> <br>
+
+     <br><label for ="course">Select the course</label>
+        <select id="course" name="course" size="1"><br>
+            <option value="Java">Java</option>
+            <option value="C">C</option>
+            <option value="SQL">SQL</option>
+            <option value="HTML">HTML</option><br>
+        </select>
+<br><br>
+        <label for="points"> Rate your experience!!</label>
+        <input type="range" id="points" name="points" min="0" max="10">
+        <br><br>
+
+        <br><input type="reset">
+        
+<br><br><br>
+        <input type="submit"><br>
+    </form>
+</body>
+</html>
